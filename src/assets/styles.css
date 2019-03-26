@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'AmolecoinLight';
+  src: url('./fonts/amolecoin/amolecoin-light-webfont.woff2') format('woff2'),
+  url('./fonts/amolecoin/amolecoin-light-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'AmolecoinSansBold';
+  src: url('./fonts/amolecoin/amolecoin-bold-webfont.woff2') format('woff2'),
+  url('./fonts/amolecoin/amolecoin-bold-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'AmolecoinSans';
+  src: url('./fonts/amolecoin/amolecoin-regular-webfont.woff2') format('woff2'),
+  url('./fonts/amolecoin/amolecoin-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'AmolecoinSansBoldItalic';
+  src: url('./fonts/amolecoin/amolecoin-bold-italic-webfont.woff2') format('woff2'),
+  url('./fonts/amolecoin/amolecoin-bold-italic-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'AmolecoinSansItalic';
+  src: url('./fonts/amolecoin/amolecoin-regular-italic-webfont.woff2') format('woff2'),
+  url('./fonts/amolecoin/amolecoin-regular-italic-webfont.woff') format('woff');
+}
+
+h1, h2, h3, h4, h5, h6, p, a, body, div {
+  font-family: 'AmolecoinSans', Verdana, sans-serif;
+}
+html {
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+}
+body {
+  word-wrap: break-word;
+  font-family: 'AmolecoinSans', Verdana, sans-serif;
+  height: 100%;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 112rem;
+  padding: 0 3.2rem;
+  box-sizing: content-box;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  cursor: pointer;
+  text-decoration: none;
+}
+.wrap{
+  word-break: break-all;
+}
+
+/**
+Style Helpers
+ */
+.gutter-left {
+  margin-left: -7.5px;
+  padding-left: 15px;
+}
+
+.gutter-right {
+  margin-right: -7.5px;
+  padding-right: 15px;
+}

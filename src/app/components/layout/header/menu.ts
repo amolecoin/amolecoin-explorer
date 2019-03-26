@@ -1,0 +1,137 @@
+
+
+export default [
+    {
+      name: 'Downloads',
+      href: 'http://amole.cc/downloads',
+      active: false,
+      target: '_blank',
+      open: false,
+    },
+    {
+      name: 'Ecosystem',
+      open: false,
+      active: false,
+      menu: [
+        {
+          name: 'Overview',
+          href: 'http://amole.cc/ecosystem',
+          active: false,
+          target: '_blank',
+          open: false,
+        },
+        {
+          name: 'amolewire',
+          href: 'http://amole.cc/amcwire',
+          active: false,
+          target: '_blank',
+          open: false,
+        },
+        {
+          name: 'Obelisk',
+          href: 'http://amole.cc/obelisk',
+          active: false,
+          target: '_blank',
+          open: false,
+        },
+        {
+          name: 'Fiber',
+          href: 'http://amole.cc/fiber',
+          active: false,
+          target: '_blank',
+          open: false,
+        },
+        {
+          name: 'CX',
+          href: 'http://amole.cc/cx',
+          active: false,
+          target: '_blank',
+          open: false,
+        },
+        {
+          name: 'CXO',
+          href: 'http://amole.cc/cxo',
+          active: false,
+          target: '_blank',
+          open: false,
+        },
+      ],
+    },
+    {
+      name: 'amoleminer',
+      href: 'http://amole.cc/amcminer',
+      active: false,
+      target: '_blank',
+      open: false,
+    },
+    {
+      name: 'Blog',
+      href: 'http://amole.cc/blog/',
+      active: false,
+      target: '_blank',
+      open: false,
+    },
+    {
+      name: 'Store',
+      open: false,
+      active: false,
+      menu: [
+        {
+          name: 'Hardware store',
+          href: 'https://store.amolecoin.net/',
+          active: false,
+          target: '_blank',
+          open: false,
+        },
+        {
+          name: 'Merchandise store',
+          href: 'https://merch.amolecoin.net/',
+          active: false,
+          target: '_blank',
+          open: false,
+        },
+      ],
+    },
+    {
+      name: 'Other',
+      open: false,
+      active: true,
+      menu: [
+        {
+          name: 'Team',
+          href: 'http://amole.cc/team',
+          active: false,
+          target: '_blank',
+          open: false,
+        },
+        {
+          name: 'Gallery',
+          href: 'http://amole.cc/gallery',
+          active: false,
+          target: '_blank',
+          open: false,
+        },
+        {
+          name: 'Jobs',
+          href: 'http://amole.cc/jobs',
+          active: false,
+          target: '_blank',
+          open: false,
+        },
+        {
+          name: 'Explorer',
+          href: '/',
+          active: true,
+          target: '_self',
+          open: false,
+        },
+        {
+          name: 'Explorer API',
+          href: 'http://explorer.amole.cc/api.html',
+          active: false,
+          target: '_blank',
+          open: false,
+        },
+      ],
+    },
+  ];
